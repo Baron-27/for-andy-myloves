@@ -2,11 +2,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("resources/galaxybg.jpg"); /* relative to CSS file */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: "Pixelify Sans", sans-serif;
+
+    /* Full-page background */
+    min-height: 100vh; /* make sure body covers full viewport */
+    margin: 0;
+
+    /* Background image */
+    background-image: url("../resources/galaxybg.jpg"); /* adjust path as needed */
+    background-size: cover;       /* cover entire area */
+    background-position: center;  /* center the image */
+    background-repeat: no-repeat; /* no tiling */
+
+    /* Fallback color in case image fails */
+    background-color: #000000; 
 }
 
 /* Envelope Screen */
@@ -258,6 +267,7 @@ display: inline-block;
 
 
 }
+
 
 
 
