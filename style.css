@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/resources/galaxybg.jpg"); /* add Envelope Screen */
+    background-image: url("resources/galaxybg.jpg"); /* add Envelope Screen */
     font-family: "Pixelify Sans", sans-serif;
 }
 
@@ -254,5 +254,6 @@ display: inline-block;
 
 .desc-text-color{
     color: white;
+
 
 }
