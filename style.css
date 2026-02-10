@@ -1,11 +1,12 @@
 body {
-    margin: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000;
-    /*background-image:/*url("resources/galaxybg.jpg"); /* add Envelope Screen */
+    background-image: url("resources/galaxybg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: "Pixelify Sans", sans-serif;
 }
 
@@ -258,4 +259,5 @@ display: inline-block;
 
 
 }
+
 
