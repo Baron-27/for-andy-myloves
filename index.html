@@ -1,0 +1,82 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Valentine Letter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+        rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Envelope Screen -->
+        <div id="envelope-container">
+        <img src="resources/envelope.png" alt="Envelope" id="envelope" />
+        <p class="desc-text-color">♡ Letter for You ♡ </p>
+        
+        </div>
+
+        <!-- Letter Screen -->
+        <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">Will you be my Valentine?</h1>
+
+            <img src="resources/cat_heart.gif" class="cat" id="letter-cat" />
+
+            <div class="buttons" id="letter-buttons">
+            <img src="resources/yes.png" class="btn yes-btn" alt="Yes" />
+
+            <div class="no-wrapper">
+                <img src="resources/no.png" class="btn no-btn" alt="No" />
+            </div>
+            </div>
+        </div>
+        </div>
+            <!-- Confirmation Screen -->
+        <div id="confirmation-container">
+            <div class="confirmation-window">
+                <h1>Are you sure with this?</h1>
+
+                <img src="resources/Sad Cat GIF.gif" class="cat" />
+
+                <div class="buttons">
+                <img src="resources/yes.png" class="btn" id="sure-btn" alt="Sure" />
+                <img src="resources/no.png" class="btn" id="not-sure-btn" alt="Not Sure" />
+                </div>
+                    <p id="final-text" class="final-text" style="display: none">
+                        <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
+                    </p>
+            </div>
+        </div>
+        <!-- Final Screen -->
+        <!-- Final Screen -->
+        <div id="final-container" style="display: none; position: fixed; inset: 0; justify-content: center; align-items: center;">
+            <div class="final-window">
+                <h1>Yay! Thank you! Happy Valentines day!</h1>
+                <img src="resources/2ron.gif" class="baron" alt="Happy Cat" />
+                <p class="final-text">Mystery gift on delivery</p>
+                <p class="final-text">dont forget to leave a message</p>
+            
+                <!-- Social Media Logos -->
+                <div class="social-logos">
+                    <a href="https://www.instagram.com/baron_mo_to/" target="_blank" rel="noopener">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="logo-img" />
+                    </a>
+                    <a href="https://www.facebook.com/BBBAAARRROOONNNN" target="_blank" rel="noopener">
+                        <img src="resources/icons8-facebook-logo-48.png" alt="Facebook" class="logo-img" />
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKBzzwcBMGXBQpzdGfsJrmMSHnTZTljDtGMzBTgPRHSmzHXVhCsJqPdDRRnCZTCqhbqPsJq" target="_blank" rel="noopener">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" class="logo-img" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
