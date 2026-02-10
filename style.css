@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("resources/galaxybg.jpg");
+    background-image: url("for-andy-myloves/resources/galaxybg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,6 +258,7 @@ display: inline-block;
 
 
 }
+
 
 
 
